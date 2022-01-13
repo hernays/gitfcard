@@ -1,0 +1,189 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 900px;
+    background: linear-gradient(60deg,rgb(64, 211, 233),rgb(70, 4, 84));
+    background-repeat: no-repeat;
+    transition: all 300ms;
+}
+
+
+
+#regalo img{
+    display: block;
+    width: 80%;
+    height: 200px;
+    margin-left: 10%;
+    transition: all 300ms;
+}
+
+#regalo h1{
+    color: white;
+    font-size: 24px;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    font-weight: 100;
+    padding-bottom: 150px;
+}
+
+#regalo span{
+    display: block;
+    color: white;
+    font-size: 20px;
+    padding-top: 100px;
+}
+
+
+@keyframes caja{
+    0%{
+        transform: scale(1,1);
+
+
+
+    }50%{
+        transform: scale(2,2);
+
+
+        
+    }100%{
+        transform: scale(1,1);
+
+
+    }
+}
+
+
+
+.rapida{
+    animation: cajaRapida 1s linear infinite;
+}
+
+.regalo{
+
+    animation: caja 3s linear infinite;
+
+}
+
+
+
+@keyframes cajaRapida{
+    0%{
+        transform: scale(1,1);
+
+
+
+    }50%{
+        transform: scale(2,2);
+
+
+        
+    }100%{
+        transform: scale(1,1);
+        display: none;
+
+
+    }
+}
+
+
+
+#fuegos{
+    min-height: 360px;
+    margin-top: -300px;
+}
+
+
+.fuegos{
+    display: block !important;
+    width: 100%;
+}
+
+
+.cardAbrir{
+
+    display: block !important;
+    width: 100%;
+}
+
+.flexBody{
+    flex-flow: column wrap;
+}
+
+#card{
+    display: none;
+    width:80%;
+    height:225px;
+    margin-top:50px;
+    background: linear-gradient(60deg ,rgb(187, 14, 150), blue)
+
+}
+
+#cajah{
+    display: none;
+    margin-top:30px;
+    color: white;
+    font-weight: 100;
+    letter-spacing: 2px;
+    text-align: center;
+    font-size: 30px;
+}
+
+
+#gift{
+    font-size:40px;
+    text-shadow: 2px 2px 0px white, 3px 3px 2px black;
+}
+
+
+#cirugia{
+    font-size:25px;
+    margin-top:20px;
+    text-align: center;
+    letter-spacing: 4px;
+    text-shadow: 2px 2px 0px white, 3px 3px 2px black;
+}
+
+.santiago{
+    text-align: center;
+    letter-spacing: 6px;
+    font-size:30px;
+    font-weight: bold;
+    margin-top: 5px;
+    color: black;
+    text-shadow:  0px 0px 3px white;
+    animation: monto 3s linear infinite;
+}
+
+
+@keyframes monto{
+
+    0%{
+        text-shadow: 3px 3px 4px white;
+    }50%{
+        text-shadow: 0px 0px 2px white;
+    }100%{
+        text-shadow: 3px 3px 4px white;
+    }
+}
+
+#ul{
+    padding: 5px;
+    list-style: none;
+}
+
+#ul > li{
+    color:rgb(233 219 219);
+    text-shadow: 0px 0px 3px black;
+}
+
+#audio{
+    display: none;
+    opacity: 0;
+}
