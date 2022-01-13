@@ -68,6 +68,7 @@ body{
 .regalo{
 
     animation: caja 3s linear infinite;
+    cursor: pointer;
 
 }
 
