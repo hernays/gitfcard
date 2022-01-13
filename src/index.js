@@ -11,7 +11,7 @@ const audio = document.querySelector('#audio');
 
 
 
-const ocultarCaja = async(event) => {
+const ocultarCaja = (event) => {
 
     const img = event.target;
 
@@ -19,8 +19,7 @@ const ocultarCaja = async(event) => {
     
     img.classList.replace('regalo','rapida');
 
-
- const time = setTimeout( async(evento) => {
+setTimeout( (evento) => {
 
      caja[0].style.display = 'none';
 
@@ -39,14 +38,13 @@ const ocultarCaja = async(event) => {
 
              audio.play();
 
-         },10)
+         },10);
         
      }
      
  },5000);
 
     }
-
 
 }
 

@@ -9,6 +9,7 @@ const Terser = require('terser-webpack-plugin');
 module.exports = {
 
 
+
     //mode es para elegir el modo de desarrollo o produccion
           mode: "production",
 
@@ -52,6 +53,7 @@ module.exports = {
             }
             ]
           },
+
 
           optimization:{
               minimize: true,
