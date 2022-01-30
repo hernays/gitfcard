@@ -1,6 +1,7 @@
-# 21
+# GiftCard
 
-juego 21
+```
+gitfcard para sorteos en eventos.
 
-editado desde github
+```
 
