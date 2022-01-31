@@ -1,6 +1,6 @@
 # Proyecto GiftCard
 
- ### Proyecto realizado en webpack 
- ### recordar hacer npm install 
+- Proyecto realizado en webpack 
+- recordar hacer npm install 
 
 
