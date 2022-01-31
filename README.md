@@ -1,7 +1,6 @@
-# GiftCard
+# Proyecto GiftCard
 
-```
-gitfcard para sorteos en eventos.
+ ### Proyecto realizado en webpack 
+ ### recordar hacer npm install 
 
-```
 
