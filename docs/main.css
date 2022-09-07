@@ -125,7 +125,7 @@ body{
 
 #card{
     display: none;
-    width:80%;
+    width:85%;
     margin-top:50px;
     background: linear-gradient(60deg ,rgb(186, 114, 114), #eb5df8);
     border-radius: 10px;
